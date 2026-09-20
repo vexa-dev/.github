@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 78" width="1000" height="78" role="img" aria-label="Contacto: vexa.space · vexa.corp@outlook.com · Perú · respuesta en menos de 12 horas">
+  <title>Contacto de VEXA</title>
+  <defs>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1000" height="78" rx="16"/></clipPath>
+    <style>
+      .pill { opacity: 0; animation: pop .7s cubic-bezier(.22,1,.36,1) forwards }
+      @keyframes pop { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+      .p1{animation-delay:.08s} .p2{animation-delay:.18s} .p3{animation-delay:.28s} .p4{animation-delay:.38s}
+      .ico { stroke: #7FB5A1; stroke-width: 1.7; fill: none; stroke-linecap: round; stroke-linejoin: round }
+      @media (prefers-reduced-motion: reduce) { .pill { opacity: 1; animation: none } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="78" fill="#0a0a0a"/>
+
+    <!-- vexa.space -->
+    <g class="pill p1">
+      <rect x="40" y="19" width="188" height="40" rx="12" fill="#121A1D" stroke="#548D7B" stroke-opacity="0.28"/>
+      <rect x="40" y="19" width="188" height="40" rx="12" fill="url(#gloss)"/>
+      <g class="ico" transform="translate(58 30)">
+        <circle cx="9" cy="9" r="8.2"/>
+        <path d="M.8 9h16.4M9 .8c2.2 2.4 3.3 5.3 3.3 8.2S11.2 15 9 17.2C6.8 14.8 5.7 11.9 5.7 9S6.8 3.2 9 .8Z"/>
+      </g>
+      <text x="90" y="44" font-family="'Segoe UI',Inter,system-ui,sans-serif" font-size="14.5"
+            font-weight="600" letter-spacing="0.3" fill="#E8F0ED">vexa.space</text>
+    </g>
+
+    <!-- correo -->
+    <g class="pill p2">
+      <rect x="244" y="19" width="290" height="40" rx="12" fill="#121A1D" stroke="#548D7B" stroke-opacity="0.28"/>
+      <rect x="244" y="19" width="290" height="40" rx="12" fill="url(#gloss)"/>
+      <g class="ico" transform="translate(262 31)">
+        <rect x="0.8" y="1.4" width="17" height="13" rx="2.6"/>
+        <path d="m1.8 3.4 7.6 5.6 7.6-5.6"/>
+      </g>
+      <text x="294" y="44" font-family="'Segoe UI',Inter,system-ui,sans-serif" font-size="14.5"
+            font-weight="600" letter-spacing="0.3" fill="#E8F0ED">vexa.corp@outlook.com</text>
+    </g>
+
+    <!-- ubicación -->
+    <g class="pill p3">
+      <rect x="550" y="19" width="128" height="40" rx="12" fill="#121A1D" stroke="#548D7B" stroke-opacity="0.28"/>
+      <rect x="550" y="19" width="128" height="40" rx="12" fill="url(#gloss)"/>
+      <g class="ico" transform="translate(569 30)">
+        <path d="M9 17.4s6.6-5.6 6.6-10.2A6.6 6.6 0 0 0 2.4 7.2C2.4 11.8 9 17.4 9 17.4Z"/>
+        <circle cx="9" cy="7.2" r="2.4"/>
+      </g>
+      <text x="600" y="44" font-family="'Segoe UI',Inter,system-ui,sans-serif" font-size="14.5"
+            font-weight="600" letter-spacing="0.3" fill="#E8F0ED">Perú</text>
+    </g>
+
+    <!-- tiempo de respuesta -->
+    <g class="pill p4">
+      <rect x="694" y="19" width="272" height="40" rx="12" fill="#121A1D" stroke="#548D7B" stroke-opacity="0.28"/>
+      <rect x="694" y="19" width="272" height="40" rx="12" fill="url(#gloss)"/>
+      <g class="ico" transform="translate(712 30)">
+        <circle cx="9" cy="9" r="8.2"/>
+        <path d="M9 4.4V9l3.2 2.4"/>
+      </g>
+      <text x="744" y="44" font-family="'Segoe UI',Inter,system-ui,sans-serif" font-size="14.5"
+            font-weight="600" letter-spacing="0.3" fill="#E8F0ED">Respuesta en menos de 12 h</text>
+      <circle cx="948" cy="39" r="3.4" fill="#4ADE80">
+        <animate attributeName="opacity" values="1;.25;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </g>
+</svg>

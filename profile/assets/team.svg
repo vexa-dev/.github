@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="1000" height="240" role="img" aria-label="Equipo de VEXA: Robert Vasquez, José Gonzales, Jhony Rivera y Diego Choque">
+  <title>Equipo de VEXA</title>
+  <defs>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="av" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B2A26"/>
+      <stop offset="100%" stop-color="#0F1614"/>
+    </linearGradient>
+    <linearGradient id="sepv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#548D7B" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#548D7B" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#548D7B" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="amb">
+      <stop offset="0%" stop-color="#548D7B" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#548D7B" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#FFFFFF" fill-opacity="0.03"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1000" height="240" rx="18"/></clipPath>
+    <style>
+      .m { opacity: 0; animation: pop .8s cubic-bezier(.22,1,.36,1) forwards }
+      @keyframes pop { from { opacity: 0; transform: translateY(12px) } to { opacity: 1; transform: none } }
+      .m1{animation-delay:.10s} .m2{animation-delay:.24s} .m3{animation-delay:.38s} .m4{animation-delay:.52s}
+      .ring { transform-box: fill-box; transform-origin: center; animation: spin 20s linear infinite }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      @media (prefers-reduced-motion: reduce) { .m { opacity: 1; animation: none } .ring { animation: none } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1000" height="240" fill="#0a0a0a"/>
+    <rect width="1000" height="240" fill="url(#dots)"/>
+    <ellipse cx="500" cy="120" rx="470" ry="150" fill="url(#amb)"/>
+
+    <rect x="249.5" y="34" width="1" height="172" fill="url(#sepv)"/>
+    <rect x="499.5" y="34" width="1" height="172" fill="url(#sepv)"/>
+    <rect x="749.5" y="34" width="1" height="172" fill="url(#sepv)"/>
+
+    <!-- Robert Vasquez -->
+    <g class="m m1">
+      <circle cx="125" cy="78" r="34" fill="url(#av)" stroke="#548D7B" stroke-opacity="0.3"/>
+      <circle cx="125" cy="78" r="34" fill="url(#gloss)"/>
+      <g class="ring">
+        <circle cx="125" cy="78" r="34" fill="none" stroke="#7FB5A1" stroke-opacity="0.75"
+                stroke-width="1.6" stroke-linecap="round" stroke-dasharray="26 188"/>
+      </g>
+      <text x="125" y="86" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="24" font-weight="700" letter-spacing="1" fill="#E8F0ED">RV</text>
+      <text x="125" y="140" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="15.5" font-weight="700" fill="#FFFFFF">Robert Vasquez</text>
+      <text x="125" y="162" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="12" font-weight="700" letter-spacing="1.3" fill="#7FB5A1">CEO · ING. DE SOFTWARE</text>
+      <text x="125" y="186" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="12" font-weight="500" fill="#64748B">Backend, Scrum y BDD</text>
+    </g>
+
+    <!-- José Gonzales -->
+    <g class="m m2">
+      <circle cx="375" cy="78" r="34" fill="url(#av)" stroke="#548D7B" stroke-opacity="0.3"/>
+      <circle cx="375" cy="78" r="34" fill="url(#gloss)"/>
+      <g class="ring">
+        <circle cx="375" cy="78" r="34" fill="none" stroke="#7FB5A1" stroke-opacity="0.75"
+                stroke-width="1.6" stroke-linecap="round" stroke-dasharray="26 188"/>
+      </g>
+      <text x="375" y="86" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="24" font-weight="700" letter-spacing="1" fill="#E8F0ED">JG</text>
+      <text x="375" y="140" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="15.5" font-weight="700" fill="#FFFFFF">José Gonzales</text>
+      <text x="375" y="162" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="12" font-weight="700" letter-spacing="1.3" fill="#7FB5A1">FRONTEND DEVELOPER</text>
+      <text x="375" y="186" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="12" font-weight="500" fill="#64748B">Interfaces en React y UX</text>
+    </g>
+
+    <!-- Jhony Rivera -->
+    <g class="m m3">
+      <circle cx="625" cy="78" r="34" fill="url(#av)" stroke="#548D7B" stroke-opacity="0.3"/>
+      <circle cx="625" cy="78" r="34" fill="url(#gloss)"/>
+      <g class="ring">
+        <circle cx="625" cy="78" r="34" fill="none" stroke="#7FB5A1" stroke-opacity="0.75"
+                stroke-width="1.6" stroke-linecap="round" stroke-dasharray="26 188"/>
+      </g>
+      <text x="625" y="86" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="24" font-weight="700" letter-spacing="1" fill="#E8F0ED">JR</text>
+      <text x="625" y="140" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="15.5" font-weight="700" fill="#FFFFFF">Jhony Rivera</text>
+      <text x="625" y="162" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="12" font-weight="700" letter-spacing="1.3" fill="#7FB5A1">BACKEND ARCHITECT</text>
+      <text x="625" y="186" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="12" font-weight="500" fill="#64748B">Datos y sistemas escalables</text>
+    </g>
+
+    <!-- Diego Choque -->
+    <g class="m m4">
+      <circle cx="875" cy="78" r="34" fill="url(#av)" stroke="#548D7B" stroke-opacity="0.3"/>
+      <circle cx="875" cy="78" r="34" fill="url(#gloss)"/>
+      <g class="ring">
+        <circle cx="875" cy="78" r="34" fill="none" stroke="#7FB5A1" stroke-opacity="0.75"
+                stroke-width="1.6" stroke-linecap="round" stroke-dasharray="26 188"/>
+      </g>
+      <text x="875" y="86" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="24" font-weight="700" letter-spacing="1" fill="#E8F0ED">DC</text>
+      <text x="875" y="140" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="15.5" font-weight="700" fill="#FFFFFF">Diego Choque</text>
+      <text x="875" y="162" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="12" font-weight="700" letter-spacing="1.3" fill="#7FB5A1">DEVOPS ENGINEER</text>
+      <text x="875" y="186" text-anchor="middle" font-family="'Segoe UI',Inter,system-ui,sans-serif"
+            font-size="12" font-weight="500" fill="#64748B">CI/CD y despliegue seguro</text>
+    </g>
+  </g>
+</svg>
