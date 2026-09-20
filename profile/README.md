@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://vexa.space">
-  <img src="https://raw.githubusercontent.com/vexa-dev/.github/main/profile/assets/banner.svg" alt="VEXA — Software a tu medida" width="100%">
+  <img src="https://raw.githubusercontent.com/vexa-dev/.github/main/profile/assets/banner.svg?v=2" alt="VEXA — Software a tu medida" width="100%">
 </a>
 
 <img src="https://raw.githubusercontent.com/vexa-dev/.github/main/profile/assets/contact.svg" alt="vexa.space · vexa.corp@outlook.com · Perú · respuesta en menos de 12 h" width="100%">
@@ -32,7 +32,7 @@ Equipo de ingenieros peruanos especializado en **arquitectura de software escala
 
 <img src="https://raw.githubusercontent.com/vexa-dev/.github/main/profile/assets/team.svg" alt="Robert Vasquez, José Gonzales, Jhony Rivera y Diego Choque" width="100%">
 
-<img src="https://raw.githubusercontent.com/vexa-dev/.github/main/profile/assets/divider.svg" width="100%" alt="">
+<img src="https://raw.githubusercontent.com/vexa-dev/.github/main/profile/assets/divider.svg?v=2" width="100%" alt="">
 
 <div align="center">
 
